@@ -22,4 +22,3 @@ epochs: 50
 finetune_modules:
 - head
 - lstm
-base_run_dir: e:\Users\ddknop\neuralhydrology_2_updated\runs\Zwalm_2402_181607
