@@ -1,0 +1,32 @@
+# --- Experiment configurations --------------------------------------------------------------------
+
+# experiment name, used as folder name
+experiment_name: finetuned_output_zwalm
+
+# files to specify training, validation and test basins (relative to code root or absolute path)
+train_basin_file: Zwalm_code.txt
+validation_basin_file: Zwalm_code.txt
+test_basin_file: Zwalm_code.txt
+
+# training, validation and test time periods (format = 'dd/mm/yyyy')
+train_start_date: '30/06/1972'
+train_end_date: '24/11/2012'
+validation_start_date: '25/11/2012'
+validation_end_date: '14/12/2017'
+test_start_date: '15/12/2017'
+test_end_date: '31/12/2022'
+# --- Training configuration -----------------------------------------------------------------------
+
+# specify learning rates to use starting at specific epochs (0 is the initial learning rate)
+learning_rate:
+    0: 1e-3
+    10: 5e-4
+    20: 1e-4
+
+# Number of training epochs
+epochs: 20
+
+finetune_modules:
+- head
+- dynamic_gates
+- input_gate
