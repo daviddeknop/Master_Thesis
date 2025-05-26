@@ -6,7 +6,8 @@ RAINFALL-RUNOFF MODELS: A
 COMPARATIVE STUDY"**
 
 The work includes comparative experiments between a traditional conceptual hydrological model (PDM) and various Long Short-Term Memory (LSTM)-based deep learning models.
-The code in the Resository is partely based on [Thesis](https://github.com/olivierbonte/master_thesis) and the Neuralhydrology Environment [NeuralHuydrology](https://github.com/neuralhydrology/neuralhydrology).
+The code in the resository is partely based on [Bonte
+(2023)](https://github.com/olivierbonte/master_thesis) and the Neuralhydrology environment of [Kratzert et al. (2022)](https://github.com/neuralhydrology/neuralhydrology) is used.
 
 ---
 
