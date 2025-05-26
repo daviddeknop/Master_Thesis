@@ -36,7 +36,6 @@ Supports geospatial and data preprocessing scripts from:
 **Installation:**
 ```bash
 conda env create -f environment_1.yml
-conda activate environment_1
 ```
 ### Environment 2: LSTM Modeling
 
@@ -48,4 +47,4 @@ Supports deep learning model training, evaluation, and visualization for:
 **Installation:**
 ```bash
 conda env create -f environment_2.yml
-conda activate environment_2
+```
