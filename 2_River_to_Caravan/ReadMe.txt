@@ -1,8 +1,10 @@
-Caravan_part1_Earth_Engine.ipynb and Caravan_part2_local_postprocessing.ipynb are an adapted version of Kratzert notebook for conversion of Flanders catchments into Caravan format.
-Note that the first notebook should be exicuted in google Colab to ensure access to google Earth Engine.
+The notebooks **`Caravan_part1_Earth_Engine.ipynb`** and **`Caravan_part2_local_postprocessing.ipynb`** are adapted versions of the original Kratzert notebook, designed for converting Flanders catchments into the Caravan data format.
 
-Before running these notebooks, the shp, dbf and shx from step 1 has to be uploaded in the google Earth Engine as a new asset. After this the notebooks can be followed.
-The output is stored in output_caravan.
+**Important:**
 
-For the second notebook conversion of coordinates are needed to transform the Lambert 72 coordinates into WGS-84, therefor the script conversion_coordinates.py need to be runed 
-note that conversion of coordinates is not part of the neuralhydrology environment. Run this in the thesis environment.
+- The first notebook must be executed in **Google Colab** to ensure seamless access to Google Earth Engine.
+- Prior to running these notebooks, the shapefile components (`.shp`, `.dbf`, and `.shx`) generated in Step 1 must be uploaded as a new asset in Google Earth Engine.
+
+Alternatively, this upload step can be bypassed by running the script **`Loading_input_data.py`** located in the corresponding `LOADING INPUT` folder.
+
+The output produced by the second notebook is saved to the folder **`output_caravan`**.
