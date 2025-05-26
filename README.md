@@ -52,3 +52,5 @@ conda env create -f environment_2.yml
 
 Each of the main phase directories (e.g., `1_Conversion_river_shape`, `2_River_to_Caravan`, etc.) contains a subdirectory named `LOADING INPUT`. This folder is essential for executing the scripts in that phase, as it holds the necessary input files specific to the corresponding processing step. The required data files are downloaded from the associated Zenodo repositories.
 
+## ReadMe
+Each main directory contains its own README file, providing more detailed and context-specific information related to the scripts and data within that section.
