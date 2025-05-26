@@ -1,0 +1,25 @@
+# --- Experiment configurations --------------------------------------------------------------------
+
+# experiment name, used as folder name
+experiment_name: Zwalm_finetune
+
+# files to specify training, validation and test basins (relative to code root or absolute path)
+train_basin_file: finetune_Zwalm.txt
+validation_basin_file: finetune_Zwalm.txt
+test_basin_file: finetune_Zwalm.txt
+
+# --- Training configuration -----------------------------------------------------------------------
+
+# specify learning rates to use starting at specific epochs (0 is the initial learning rate)
+learning_rate:
+    0: 5e-4
+    10: 2.5e-4
+    20: 5e-5
+
+# Number of training epochs
+epochs: 50
+
+finetune_modules:
+- head
+- lstm
+base_run_dir: e:\Users\ddknop\neuralhydrology_2_updated\runs\Zwalm_2402_181607
