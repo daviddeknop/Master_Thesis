@@ -8,4 +8,4 @@ Important:
 
 -Alternatively, this upload step can be bypassed by running the script Loading_input_data.py located in the corresponding LOADING INPUT folder.
 
-The output produced by the second notebook is saved to the folder output_caravan.
+The output produced by the second notebook is saved to the folder output_caravan_"name_catchment".
