@@ -1,4 +1,4 @@
-If you want to work with your own processed CARAVAN data, you should copy the output folder from step 2_River_to_Caravan,
+If you want to work with your own processed Caravan data, you should copy the output folder from step 2_River_to_Caravan,
  named output_caravan_"name_catchment", into this folder. After copying, you should run the script located in the folder
  data_conversion to convert the data to the required format.
 
